@@ -1,5 +1,4 @@
 import { values } from "@/data";
-import { Sparkles, Award, Heart, Shield } from "lucide-react";
 
 
 
