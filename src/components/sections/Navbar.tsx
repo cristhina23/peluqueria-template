@@ -35,8 +35,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <img src="/src/assets/logo2.png" alt="Belleza Studio Logo" className="h-10 w-10" />
-            <span className="font-display text-2xl font-bold text-foreground">
+            <img src="/src/assets/logo3.png" alt="Belleza Studio Logo" className="h-10 w-10" />
+            <span className="font-display text-2xl font-bold text-hero-text">
               Belleza<span className="text-primary">Studio</span>
             </span>
           </a>
