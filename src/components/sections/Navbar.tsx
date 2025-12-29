@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, MessageCircle } from "lucide-react";
+import { PrimaryButton } from "../ui/PrimaryButton";
+import { whatsappUrl } from "@/data";
 
 const navLinks = [
   { href: "#servicios", label: "Servicios" },
@@ -52,20 +54,15 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button 
-              size="sm"
-              className="bg-primary hover:bg-primary/90 transition-all duration-300 hover:scale-105"
+            <PrimaryButton
               asChild
+              className="px-4 py-2 text-sm transition-all duration-300 hover:scale-105"
             >
-              <a 
-                href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MessageCircle className="mr-2 h-4 w-4" />
-                Reservar
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="h-5 w-5" />
+                Reservar 
               </a>
-            </Button>
+            </PrimaryButton>
           </div>
 
           {/* Mobile Menu Button */}

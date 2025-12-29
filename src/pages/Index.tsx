@@ -8,19 +8,30 @@ import Process from "@/components/sections/Process";
 import CTA from "@/components/sections/CTA";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
+import FAQ from "@/components/sections/FQA";
 
 const Index = () => {
   return (
     <div className="min-h-screen ">
       <Navbar />
       <Hero />
-      <ValueProposition />
-      <Services />
-      <Testimonials />
-      <Team />
-      <Process />
-      <CTA />
-      <Contact />
+
+      <ValueProposition />    
+
+      <Services />             
+
+      <Process />              
+
+      <Testimonials />         
+
+      <CTA />   
+
+      <FAQ />               
+
+      <Team />                 
+
+      <Contact />              
+
       <Footer />
     </div>
   );
