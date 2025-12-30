@@ -11,7 +11,7 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url('/src/assets/bg5.jpg')` }}
+        style={{ backgroundImage: `url('/images/bg5.jpg')` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-background/10" />
       </div>
