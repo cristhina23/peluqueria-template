@@ -1,5 +1,6 @@
 import { Button } from "@radix-ui/themes";
 import { MessageCircle, Clock, Gift } from "lucide-react";
+import { PrimaryButton } from "../ui/PrimaryButton";
 
 const CTA = () => {
   const whatsappNumber = "34600000000";
@@ -55,10 +56,9 @@ const CTA = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button
-              size="3"
-              className="group text-lg px-10 py-7 bg-accent text-accent-foreground hover:bg-accent/90 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+          <div className="flex flex-col items-center justify-center gap-4">
+            <PrimaryButton
+              className="group text-lg px-6 py-4 bg-accent text-accent-foreground hover:bg-accent/90 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
               asChild
             >
               <a
@@ -69,7 +69,7 @@ const CTA = () => {
                 <MessageCircle className="mr-2 h-6 w-6 group-hover:animate-pulse" />
                 Agendar por WhatsApp
               </a>
-            </Button>
+            </PrimaryButton>
 
             <span className="text-primary-foreground/60 text-sm">
               Atención personalizada · respuesta rápida

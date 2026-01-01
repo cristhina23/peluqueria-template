@@ -128,52 +128,14 @@ const Contact = () => {
             </div>
 
             {/* Social & WhatsApp */}
-            <div className="pt-6 border-t border-border">
-              <h3 className="font-semibold text-foreground mb-4">
-                Síguenos
-              </h3>
-              <div className="flex items-center gap-4">
-                <a
-                  href={social.instagram}
-                  className=" group
-                    w-8 h-8 rounded-xl
-                    bg-transparent hover:bg-primary
-                    flex items-center justify-center
-
-                    transition-all duration-300 ease-out
-                    hover:scale-110 hover:rotate-360 
-
-                    hover:shadow-[0_0_20px_hsl(var(--primary))]"
-                >
-                  <Instagram className="h-5 w-5 text-foreground hover:text-background" />
-                </a>
-                <a
-                  href={social.facebook}
-                  className="
-                    group
-                    w-8 h-8 rounded-xl
-                    bg-transparent hover:bg-rose-light
-                    flex items-center justify-center
-                    hover:rotate-360 hover:bg-primary
-                    transition-all duration-300 ease-out
-                    hover:scale-110
-
-                    hover:shadow-[0_0_20px_hsl(var(--primary))]
-                  "
-                >
-                  <Facebook
-                    className="
-                      h-5 w-5 text-foreground  hover:text-background
-                      transition-transform duration-300
-                      group-hover:scale-110
-                    "
-                  />
-                </a>
+            <div className="pt-6 border-t border-border  flex items-center gap-4">
+              
+              
 
 
 
                 <PrimaryButton
-                  className="ml-auto bg-[#25D366] hover:bg-[#20BD5A] text-white px-5 py-3"
+                  className="ml-auto  bg-[#25D366] hover:bg-[#20BD6A] text-white px-5 py-3"
                   asChild
                 >
                   <a
@@ -189,7 +151,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      
     </section>
   );
 };

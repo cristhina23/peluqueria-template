@@ -43,7 +43,7 @@ export default function FAQ() {
               value={`item-${index}`}
               className="group bg-card border border-border rounded-2xl px-6 transition-all duration-300 hover:shadow-md"
             >
-              <AccordionTrigger className="text-left text-base font-medium text-foreground group-hover:text-primary transition-colors">
+              <AccordionTrigger className="text-left text-muted-foreground text-lg group-hover:text-primary transition-colors">
                 {faq.question}
               </AccordionTrigger>
 
